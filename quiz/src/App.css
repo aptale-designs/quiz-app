@@ -1,0 +1,49 @@
+.app {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    color: brown;
+}
+
+.question-section,
+.answer-section,
+.score-section {
+    text-align: center;
+    margin: 1em;
+}
+
+.question-count span {
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.question-text {
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+.answer-section button{
+    font-size: 1.3em;
+    border: 1px solid brown;
+    color: #fff;
+    background-color: brown;
+    padding: 1em 2em;
+    margin: 0 .5em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.score-section{
+    font-size: 1.3em;
+    color: green;
+}
+
+.answer-section button:hover{
+    background-color: beige;
+    color: #000;
+}
